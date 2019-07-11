@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.halfCol{
+	display: inline-block;
+	width: 50%;
+}
+
+.halfCol > label{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.halfCol > input{
+	max-width: 130px;
+	margin-bottom: 20px;
+}
+
+.orderSection{
+	font-size: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media (min-width: 375px){
+	.halfCol > input{
+		max-width: 500px;
+	}
+}
